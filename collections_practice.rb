@@ -69,11 +69,18 @@ def kesha_maker(array)
   end
 end
 
-
+#original swap.
+=begin
 def swap_elements(array)
   new_array = array.insert(1, array[2])
   new_array.pop
   new_array
+end
+=end
+
+def swap_elements(array)
+  array[1], array[2] = array[2], array[1]
+  array
 end
 
 def find_a(array)
