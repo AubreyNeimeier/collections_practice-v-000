@@ -82,10 +82,10 @@ def swap_elements(array)
   array[1], array[2] = array[2], array[1]
   array
 end
- #performs switch simutanesoulsy so we don't loose a value. 
+ #performs switch simutanesoulsy so we don't loose a value.
  #for example if we did array [1] = array [2]
 #and then array [2] = array [1], we'd have array [1] and array [2] equal to
-#array[2](because we did that switch first without saving the second switch 
+#array[2](because we did that switch first without saving the second switch
 #value(array [2]))
 
 def find_a(array)
